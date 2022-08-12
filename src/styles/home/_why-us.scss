@@ -1,0 +1,63 @@
+.WhyUs {
+	&.WhyFranchise &-items {
+		@include desktop {
+			grid-template-columns: repeat(3, 1fr)!important;
+		}
+	}
+	&-title {
+		margin-bottom: 2.25rem;
+	}
+	&-item {
+		&:not(:last-child) {
+			margin-bottom: 2rem;
+			@include tablet {
+				margin-right: 3rem;
+			}
+			@include desktop {
+				margin-bottom: 0;
+			}
+		}
+	}
+	@supports (column-gap: 3rem) {
+		&-items {
+			column-gap: 3rem;
+			row-gap: 2rem;
+		}
+		&-item {
+			margin: 0!important;
+		}
+	}
+	&-items {
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 1fr;
+		@include tablet {
+			grid-template-columns: repeat(2, 1fr);
+		}
+		@include desktop {
+			grid-template-columns: repeat(4, 1fr);
+		}
+	}
+	&-item {
+		&-icon {
+			cursor: pointer;
+			font-size: 1.5rem;
+			color: var(--main);
+			background-color: var(--main-light-100);
+			padding: 1rem 1.2rem 0.925rem;
+			border-radius: var(--border-radius);
+			margin-bottom: 1rem;
+			transition: background-color 600ms var(--transition);
+			svg {
+				transform: translateY(0)!important;
+				transition: transform 600ms var(--transition);
+			}
+			&:hover {
+				background-color: var(--main-light-200);
+				svg {
+					transform: translateY(-3px)!important;
+				}
+			}
+		}
+	}
+}

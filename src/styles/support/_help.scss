@@ -1,0 +1,28 @@
+.Help {
+	@include desktop {
+		margin-top: 10rem!important;
+	}
+	&-wrapper {
+		position: relative;
+		padding: 2.75rem;
+		border-radius: var(--border-radius);
+		background-color: var(--main);
+		@include desktop {
+			justify-content: flex-end;
+		}
+		* {
+			color: #fff;
+		}
+	}
+	&-image {
+		position: absolute;
+		bottom: 0;
+		max-width: 300px;
+		left: 10%;
+	}
+	&-text {
+		@include desktop {
+			width: 60%;
+		}
+	}
+}

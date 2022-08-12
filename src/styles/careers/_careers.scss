@@ -1,0 +1,100 @@
+.OpenRoles {
+	&-header {
+		&-sub {
+			@include desktop {
+				flex-direction: row;
+				.text {
+					max-width: 75%;
+				}
+			}
+		}
+	}
+	&-role {
+		padding: 0 0 1.25rem;
+		border-bottom: 1px solid var(--main-light-200);
+		&-name, &-button {
+			flex: 1;
+		}
+	}
+}
+
+.back-link {
+	margin-bottom: 3rem;
+	span {
+		margin-top: 8px;
+		font-size: 1.75rem;
+	}
+	p {
+		font-weight: 600;
+		font-size: 1.25rem;
+	}
+}
+
+.Job {
+	margin-top: 4rem;
+	&-header {
+		button {
+			margin-top: 1.25rem;
+		}
+	}
+	&-description {
+		margin-top: 4rem;
+		row-gap: 1.75rem;
+	}
+	&-paragraph {
+		.title {
+			margin-bottom: 1rem;
+		}
+		ul li:not(:last-child) {
+			margin-bottom: 0.25rem;
+		}
+		.text {
+			padding: 0 1rem;
+			line-height: 2;
+			ul {
+				list-style-position: inside;
+			}
+		}
+	}
+	&-footer {
+		padding: 0 1rem;
+		button {
+			margin-top: 2.75rem;
+		}
+	}
+}
+
+.JobApply {
+	&-header {
+		row-gap: 1.25rem;
+	}
+	&-form {
+		margin-top: 2.25rem;
+		row-gap: 1.5rem;
+		input, textarea, select {
+			&:focus, &:hover {
+				border-color: var(--gray-900)!important;
+			}
+			&:focus {
+				box-shadow: 0 0 2px var(--gray-500)!important;
+			}
+		}
+		@include desktop {
+			padding: 0 var(--padding-x);
+		}
+	}
+	&-success, &-failure {
+		row-gap: 1rem;
+		margin-top: 3rem;
+		text-align: center;
+		p { 
+			text-align: center;
+		}
+	}
+	&-success h1 {
+		color: var(--success);
+	}
+	&-failure h1 {
+		color: var(--danger);
+	}
+}

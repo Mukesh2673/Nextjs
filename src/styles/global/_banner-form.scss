@@ -1,0 +1,14 @@
+.BannerForm {
+	padding: 2.875rem;
+	&-content {
+		max-width: 500px;
+		padding: 2.75rem 2.75rem 1rem;
+		background-color: #fff;
+		border-radius: var(--border-radius);
+		box-shadow: var(--shadow-lg);
+		form button {
+			margin-top: 1.25rem;
+			width: 100%;
+		}
+	}
+}

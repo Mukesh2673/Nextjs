@@ -1,0 +1,65 @@
+/*
+	Check _flex.scss file to see why
+	files like this one are created.
+*/
+
+.display-none {
+	display: none;
+}
+
+
+.display-none-important {
+	display: none!important;
+}
+
+.relative {
+	position: relative;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.top-0 {
+	top: 0;
+}
+
+.right-0 {
+	right: 0;
+}
+
+.left-0 {
+	left: 0;
+}
+
+.bottom-0 {
+	bottom: 0;
+}
+
+.w-full {
+	width: 100%;
+}
+
+.h-full {
+	height: 100%;
+}
+
+.w-screen {
+	width: 100vw;
+}
+
+.h-screen {
+	height: 100vh;
+}
+
+.w-half {
+	width: 50%;
+}
+
+.h-half {
+	height: 50%;
+}

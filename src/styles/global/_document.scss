@@ -1,0 +1,20 @@
+.Document {
+	.title {
+		margin-bottom: 0.75rem;
+		&.tertiary {
+			transform-origin: 0;
+			@include hugeScreens {
+				transform: scale(0.75);
+			}
+		}
+	}
+	&-paragraph, &-header {
+		margin-bottom: 2rem;
+	}
+	ul, ol {
+		list-style-position: inside;
+		padding-left: 1rem;
+		padding-top: 1.25rem;
+		padding-bottom: 1.25rem;
+	}
+}

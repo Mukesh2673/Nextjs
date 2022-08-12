@@ -1,0 +1,46 @@
+.Form {
+	&-global-error {
+		padding: 1rem;
+		background-color: var(--danger-opacity-2);
+		color: var(--danger);
+		text-align: center;
+		margin-top: 1.25rem;
+		border-radius: var(--border-radius);
+		box-shadow: 0px 15px 45px var(--danger-opacity-1);
+		p {
+			font-weight: 500;
+		}
+	}
+	&-form {
+		@include desktop {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-template-rows: auto;
+			grid-column-gap: 1rem;
+			.full {
+				grid-column: span 2;
+			}
+		}
+		.accept {
+			font-size: 0.825rem;
+			margin-top: 0.5rem;
+			line-height: 1.75;
+		}
+	}
+	&-form, &-success, &-failure {
+		margin-top: 1.25rem;
+	}
+	&-success, &-failure {
+		margin-bottom: 1.5rem;
+		text-align: center;
+		p { 
+			text-align: center;
+		}
+	}
+	&-success h1 {
+		color: var(--success);
+	}
+	&-failure h1 {
+		color: var(--danger);
+	}
+}

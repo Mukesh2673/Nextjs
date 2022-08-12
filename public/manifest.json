@@ -1,0 +1,8 @@
+{
+	"short_name": "Pickmeup",
+	"name": "Pickmeup Technologies Inc.",
+	"start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0404A9",
+  "background_color": "#ffffff"
+}

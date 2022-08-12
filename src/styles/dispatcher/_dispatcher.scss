@@ -1,0 +1,57 @@
+.Dispatcher.Page {
+	.Dispatcher-Landing {
+		&-header {
+			@include desktop {
+				flex-direction: row;
+			}
+			&-title {
+				@include desktop {
+					align-items: flex-start;
+					&, & * {
+						text-align: left!important;
+					}
+				}
+			}
+			&-button {
+				@include desktop {
+					align-items: flex-end;
+				}
+			}
+		}
+		&-items {
+			margin: 1rem 0;
+			@include desktop {
+				flex-direction: row;
+				justify-content: space-between;
+			}
+			&-item {
+				@include desktop {
+					flex-direction: row;
+					align-items: flex-start;
+				}
+				&-icon {
+					background-color: var(--main-light-200);
+					color: var(--main);
+					border-radius: 50%;
+					padding: 0.5rem;
+					line-height: 0;
+					font-size: 1.25rem;
+				}
+				&-text {
+					@include desktop {
+						margin-top: 0.35rem;
+						align-items: flex-start;
+						&, & * {
+							text-align: left!important;
+						}
+					}
+				}
+			}
+		}
+		&-image {
+			height: 600px;
+			border-radius: var(--border-radius);
+			overflow: hidden;
+		}
+	}
+}

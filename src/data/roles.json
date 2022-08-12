@@ -1,0 +1,133 @@
+[
+  {
+    "id": "92623062",
+    "name": "Experienced Flutter Developer",
+    "location": "Remotely",
+    "time": "Full-Time",
+    "team": "Mobile Development",
+    "about": "Pickmeup is a transport technology platform that allows you to book a safe and affordable ride in minutes using your smartphone.<br /><br />We at Pickmeup, are looking for a problem solver, a flutter expert that can convert a UI mock-up to a fully functional application (Android & iOS). Someone who is a team player, can work with other team members to convert software specifications to software solutions while following best software development practices.",
+    "responsibilities": [
+      "Be involved and participate in the overall application lifecycle.",
+      "Design the application to follow the UI mock-up down to the last detail.",
+      "Consume API endpoints from the backend team.",
+      "Work with the mobile team and also the backend team.",
+      "Complete tasks set by the project management team.",
+      "Work on either the driver or the customer application.",
+      "Being able to run tests, in order to detect and fix bugs before deployment."
+    ],
+    "requirements": [
+      "A minimum of 3 years in mobile app development",
+      "Expertise in cross-platform development",
+      "Should know the Dart language extensively",
+      "Should know how to develop mobile applications with the Flutter framework.",
+      "Should have prior experience building a ride-hailing application."
+    ],
+    "skills": [
+      "Ability to communicate clearly",
+      "Dedication to meet project deadlines in a timely manner",
+      "Attention to details",
+      "Willingness to sign an NDA"
+    ],
+    "description": "We at Pickmeup, are looking for a problem solver, a flutter expert that can convert a UI mock-up to a fully functional application (Android & iOS). Someone who is a team player, can work with other team members to convert software specifications to software solutions while following best software development practices."
+  },
+  {
+    "id": "92623063",
+    "name": "Experienced Backend Developer ",
+    "location": "Remotely",
+    "time": "Full-Time",
+    "team": "Development",
+    "about": "Pickmeup is a transport technology platform that allows you to book a safe and affordable ride in minutes using your smartphone.<br /><br />You will be in charge of building API's for the mobile app and web applications team. Run complex calculations including working with Google Maps API. Work with RDBS to store and retrieve data, manipulate the data and give a return value.",
+    "responsibilities": [
+      "Build and maintain a bug free backend API for the mobile team",
+      "Create API versioning system",
+      "Convert written or verbal software specifications to working code.",
+      "Work with the Mobile and Web applications teams to build.",
+      "Document and Comment codes for the entire team to understand what a piece of code does."
+    ],
+    "requirements": [
+      "A minimum of 5 years in backend development",
+      "Expertise in building API's with node.js/sails.js",
+      "Should have extensive knowledge of JavaScript and NodeJs.",
+      "If you have worked on a similar project or idea, it is a very huge advantage.",
+      "Prior experience of working on a ride-hailing application and Google Maps API."
+    ],
+    "skills": [
+      "Ability to communicate clearly",
+      "Dedication to meet project deadlines in a timely manner",
+      "Attention to details",
+      "Willingness to sign an NDA"
+    ],
+    "description": "You will be in charge of building API's for the mobile app and web applications team. Run complex calculations including working with Google Maps API. Work with RDBS to store and retrieve data, manipulate the data and give a return value."
+  },
+  {
+    "id": "16849846",
+    "name": "Administrative Officer",
+    "location": "Abuja, Nigeria",
+    "time": "Full-Time",
+    "team": "Administration",
+    "responsibilities": [
+      "Monitor the operation and general activities of customers and drivers",
+      "Monitor drivers relationship with customers",
+      "Identifying trends and rending optimum service to customers",
+      "Assist in design, review and update processes, policies and procedures line with organizations value proposition and communicate service standards to the operations so that quality customer satisfactory is achieved.",
+      "Coach and train drivers to ensure proper understanding of the drivers and customers application and other goals and polices of the organization required to optimize services",
+      "Note customer's complaints and points of improvement and ensure complaints are properly attended to, queries escalated appropriately and ensure customer informed of their state in the resolution process.",
+      "Establish and maintain professional friendly relationship with drivers",
+      "Leverage multiple resources and knowledge bases to navigate complex problems and reach full resolution.",
+      "Provide thorough, proactive support using various platforms including email, chat, and phone support.",
+      "Troubleshoot account issues, identify root causes, report on insights, and propose scalable solutions to improve on service delivery and reliability.",
+      "Create a template for customer satisfaction and loyalty",
+      "Collaborate with relevant departments e.g. marketing in deploying promos and other activities.",
+      "Provide feedback on customer patronage and perception of pickmeup brand and services for brand evaluation and development.",
+      "Provide weekly report for all activities and department."
+    ],
+    "requirements": [
+      "Bachelor's Degree / HND / OND qualification",
+      "1 - 3 years of work experience.",
+      "IT Knowledge"
+    ],
+    "description": "Pickmeup International Company - The transportation industry is antiquated and has remained relatively unchanged, with minimal use of technology, sub-par service levels, and no national brand. Pickmeup is the first national brand for on-demand rides. We offer businesses a superior experience built on convenience, reliability and unmatched customer service, all powered by our proprietary technology platform. We provide easy web and mobile transportation, flexible ride options, transparent pricing, real-time tracking and confirmations, up-to-the-minute ETAs, Ride Ratings and a feature-rich API for a seamless “last mile” logistics solution."
+  },
+  {
+    "id": "84616298",
+    "name": "Email Marketing Specialist",
+    "location": "Nigeria",
+    "time": "Contract",
+    "team": "Email Marketing",
+    "about": "<ul><li>Produce and execute all email and SMS campaigns, including building emails from templates and HTML, copywriting, asset coordination, QA, and scheduling.</li><li>Support various strategic programs via manual and triggered campaigns across the customer lifecycle including prospecting, win-back, nurturing, post-purchase, loyalty, retention, surveys, and transactional emails.</li><li>Build effective target audiences and segments for every message to drive engagement and revenue performance against KPI goals.</li><li>Manage and execute email/SMS marketing calendar and ensure alignment with business priorities, demand forecasts, and internal stakeholders.</li><li>Use customer data such as web-behavior to drive the message and content personalization.</li></ul>",
+    "requirements": [
+      "Candidates should possess a Master's Degree / Bachelor's Degree / HND / OND qualification",
+      "1 - 5 years work experience.",
+      "Proven experience managing an email marketing program.",
+      "Hands-on experience in marketing automation platforms.",
+      "Detailed knowledge of email regulations, best practices, and compliance internationally in various regulatory regimes (e.g., GDPR or CASL).",
+      "Proven work experience in growing, engaging with, and analyzing the performance of a large email marketing database.",
+      "Experience building an email marketing campaign from scratch.",
+      "Knowledgeable in Google Analytics, HTML/CSS, A/B Testing, and other CMS.",
+      "Experience using SQL and similar queries to analyze data.",
+      "Proficient in data analytics to determine important data and be able to suggest improvements.",
+      "Knowledge of SEO/SEM.",
+      "Excellent written communication skills.",
+      "Strong project management skills and exceptional attention to details."
+    ],
+    "description": "Pickmeup International Company - The transportation industry is antiquated and has remained relatively unchanged, with minimal use of technology, sub-par service levels, and no national brand. Pickmeup is the first national brand for on-demand rides. We offer businesses a superior experience built on convenience, reliability and unmatched customer service, all powered by our proprietary technology platform. We provide easy web and mobile transportation, flexible ride options, transparent pricing, real-time tracking and confirmations, up-to-the-minute ETAs, Ride Ratings and a feature-rich API for a seamless “last mile” logistics solution."
+  },
+  {
+    "id": "89652541",
+    "name": "Female Customer Care",
+    "location": "Warri and Lagos, Nigeria",
+    "time": "Full-Time",
+    "team": "Customer Care",
+    "about": "<ul><li>Monitor the operation and general activities of customers and drivers</li><li>Monitor drivers relationships with customers</li><li>Identifying trends and rending optimum service to customers</li><li>Assist in design, review and updating processes, policies and procedures in line with the organizations value proposition and communicate service standards to the operations so that quality customer satisfaction is achieved.</li><li>Coach and train drivers to ensure proper understanding of the drivers and customers application and other goals and policies of the organization required to optimize services</li><li>Note customer's complaints and points of improvement and ensure complaints are properly attended to, queries escalated appropriately and ensure customers are informed of their state in the resolution process.</li><li>Establish and maintain a professional friendly relationship with drivers</li><li>Leverage multiple resources and knowledge bases to navigate complex problems and reach a full resolution.</li><li>Provide thorough, proactive support using various platforms including email, chat, and phone support.</li><li>Troubleshoot account issues, identify root causes, report on insights, and propose scalable solutions to improve on service delivery and reliability.</li><li>Create a template for customer satisfaction and loyalty</li><li>Collaborate with relevant departments e.g. marketing in deploying promos and other activities.</li><li>Provide feedback on customer patronage and perception of pickmeup brand and services for brand evaluation and development.</li><li>Provide a weekly report for all activities and departments.</li></ul>",
+    "qualifications": [
+      "Interested candidates should possess a Bachelor's Degree / HND / NCE / OND",
+      "Applicant must have 1 to 3 years of experience with a ride-hailing firm with is an added advantage.",
+      "Applicant must possess good computer and telecommunication skills.",
+      "Applicant must be innovative and creative.",
+      "Applicants must have the ability to work to achieve set targets and goals.",
+      "Applicants must have the ability to work in a competitive environment."
+    ],
+    "skills": ["Candidates must have IT Knowledge."],
+    "description": "Pickmeup International Company - The transportation industry is antiquated and has remained relatively unchanged, with minimal use of technology, sub-par service levels, and no national brand. Pickmeup is the first national brand for on-demand rides. We offer businesses a superior experience built on convenience, reliability and unmatched customer service, all powered by our proprietary technology platform. We provide easy web and mobile transportation, flexible ride options, transparent pricing, real-time tracking and confirmations, up-to-the-minute ETAs, Ride Ratings and a feature-rich API for a seamless “last mile” logistics solution."
+  }
+]

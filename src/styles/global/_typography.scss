@@ -1,0 +1,102 @@
+.title,
+.text,
+.sub-title {
+	color: var(--gray-800);
+
+	&.blue {
+		color: var(--main);
+	}
+
+	&.italic {
+		font-style: italic;
+	}
+}
+
+.title {
+	&.primary {
+		font-size: 1.75rem;
+		font-weight: 800;
+		line-height: 1.35;
+		letter-spacing: -1.5px;
+
+		@include tablet {
+			font-size: 2rem;
+		}
+
+		@include desktop {
+			font-size: 2.75rem;
+		}
+
+		@include hugeScreens {
+			font-size: 3.5rem;
+		}
+	}
+
+	&.secondary {
+		font-size: 1.75rem;
+		font-weight: 800;
+		line-height: 1.35;
+		letter-spacing: -0.5px;
+
+		@include tablet {
+			font-size: 2rem;
+		}
+
+		@include desktop {
+			font-size: 2.75rem;
+		}
+
+		@include hugeScreens {
+			font-size: 3rem;
+		}
+	}
+
+	&.tertiary {
+		font-size: 1.25rem;
+		font-weight: 700;
+		line-height: 1.2;
+		letter-spacing: -0.5px;
+
+		@include tablet {
+			font-size: 1.25rem;
+		}
+
+		@include desktop {
+			font-size: 1.75rem;
+		}
+
+		@include hugeScreens {
+			font-size: 2.5rem;
+		}
+
+		&.blue {
+			color: var(--main);
+		}
+	}
+}
+
+.text {
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.75;
+	text-align: justify;
+}
+
+.alignLeft {
+	text-align: left;
+}
+
+.mini-title {
+	font-weight: 400;
+	line-height: 1.75;
+	font-size: 0.825rem;
+}
+
+.sub-title {
+	font-weight: 700;
+	font-size: 1.15rem;
+
+	@include hugeScreens {
+		font-size: 1.25rem;
+	}
+}

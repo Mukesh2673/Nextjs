@@ -1,0 +1,152 @@
+:root {
+	// main color
+	--main: #175FBE;
+
+	// main color - light shades from 50 to 900
+	--main-light-50: #ffffff;
+	--main-light-100: #e8eff9;
+	--main-light-200: #d1dff2;
+	--main-light-300: #b9cfec;
+	--main-light-400: #a2bfe5;
+	--main-light-500: #8bafdf;
+	--main-light-600: #749fd8;
+	--main-light-700: #5d8fd2;
+	--main-light-800: #457fcb;
+	--main-light-900: #2e6fc5;
+
+	// main color - dark shades from 50 to 900
+	--main-dark-50: #175fbe;
+	--main-dark-100: #124c98;
+	--main-dark-200: #104385;
+	--main-dark-300: #0e3972;
+	--main-dark-400: #0c305f;
+	--main-dark-500: #09264c;
+	--main-dark-600: #071c39;
+	--main-dark-700: #051326;
+	--main-dark-800: #020913;
+	--main-dark-900: #000000;
+
+	// main color - opacity levels
+	--main-opacity-05: rgba(23, 95, 190, 0.05);
+	--main-opacity-1: rgba(23, 95, 190, 0.1);
+	--main-opacity-2: rgba(23, 95, 190, 0.2);
+	--main-opacity-3: rgba(23, 95, 190, 0.3);
+	--main-opacity-4: rgba(23, 95, 190, 0.4);
+	--main-opacity-5: rgba(23, 95, 190, 0.5);
+	--main-opacity-6: rgba(23, 95, 190, 0.6);
+	--main-opacity-7: rgba(23, 95, 190, 0.7);
+	--main-opacity-8: rgba(23, 95, 190, 0.8);
+	--main-opacity-9: rgba(23, 95, 190, 0.9);
+
+	// gray color - shades from 50 to 900
+	--gray-50: #f9fafb;
+	--gray-100: #f3f4f6;
+	--gray-200: #e5e7eb;
+	--gray-300: #d1d5db;
+	--gray-400: #9ca3af;
+	--gray-500: #6b7280;
+	--gray-600: #4b5563;
+	--gray-700: #374151;
+	--gray-800: #1f2937;
+	--gray-900: #111827;
+
+	// white color - opacity levels
+	--white-opacity-1: rgba(249, 250, 251, 0.1);
+	--white-opacity-2: rgba(249, 250, 251, 0.2);
+	--white-opacity-3: rgba(249, 250, 251, 0.3);
+	--white-opacity-4: rgba(249, 250, 251, 0.4);
+	--white-opacity-5: rgba(249, 250, 251, 0.5);
+	--white-opacity-6: rgba(249, 250, 251, 0.6);
+	--white-opacity-7: rgba(249, 250, 251, 0.7);
+	--white-opacity-8: rgba(249, 250, 251, 0.8);
+	--white-opacity-9: rgba(249, 250, 251, 0.9);
+
+	// white color - opacity levels
+	--light-opacity-1: rgba(255, 255, 255, 0.1);
+	--light-opacity-2: rgba(255, 255, 255, 0.2);
+	--light-opacity-3: rgba(255, 255, 255, 0.3);
+	--light-opacity-4: rgba(255, 255, 255, 0.4);
+	--light-opacity-5: rgba(255, 255, 255, 0.5);
+	--light-opacity-6: rgba(255, 255, 255, 0.6);
+	--light-opacity-7: rgba(255, 255, 255, 0.7);
+	--light-opacity-8: rgba(255, 255, 255, 0.8);
+	--light-opacity-9: rgba(255, 255, 255, 0.9);
+
+	// black color - opacity levels
+	--black-opacity-1: rgba(0, 0, 0, 0.1);
+	--black-opacity-2: rgba(0, 0, 0, 0.2);
+	--black-opacity-3: rgba(0, 0, 0, 0.3);
+	--black-opacity-4: rgba(0, 0, 0, 0.4);
+	--black-opacity-5: rgba(0, 0, 0, 0.5);
+	--black-opacity-6: rgba(0, 0, 0, 0.6);
+	--black-opacity-7: rgba(0, 0, 0, 0.7);
+	--black-opacity-8: rgba(0, 0, 0, 0.8);
+	--black-opacity-9: rgba(0, 0, 0, 0.9);
+
+	// dark color (gray-900) - opacity levels
+	--dark-opacity-1: rgba(17, 24, 39, 0.1);
+	--dark-opacity-2: rgba(17, 24, 39, 0.2);
+	--dark-opacity-3: rgba(17, 24, 39, 0.3);
+	--dark-opacity-4: rgba(17, 24, 39, 0.4);
+	--dark-opacity-5: rgba(17, 24, 39, 0.5);
+	--dark-opacity-6: rgba(17, 24, 39, 0.6);
+	--dark-opacity-7: rgba(17, 24, 39, 0.7);
+	--dark-opacity-8: rgba(17, 24, 39, 0.8);
+	--dark-opacity-9: rgba(17, 24, 39, 0.9);
+
+	// danger and caution colors
+	--success: rgb(53, 226, 87);
+	--danger: rgb(212, 51, 78);
+	--danger-opacity-1: rgba(212, 51, 78, 0.1);
+	--danger-opacity-2: rgba(212, 51, 78, 0.2);
+	--danger-opacity-3: rgba(212, 51, 78, 0.3);
+	--danger-opacity-4: rgba(212, 51, 78, 0.4);
+	--danger-opacity-5: rgba(212, 51, 78, 0.5);
+	--danger-opacity-6: rgba(212, 51, 78, 0.6);
+	--danger-opacity-7: rgba(212, 51, 78, 0.7);
+	--danger-opacity-8: rgba(212, 51, 78, 0.8);
+	--danger-opacity-9: rgba(212, 51, 78, 0.9);
+	--caution: rgb(248, 223, 82);
+
+
+
+	/*			GLOBAL VALUES		*/
+	--header-height: 100px;
+	--header-height-with-bg: 70px;
+	@include tablet {
+		--header-height-with-bg: 80px;
+	}
+	--border-radius: 8px;
+
+	// presets for cool shadows : sm - md - lg - xl - 2xl - none
+	--shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+	--shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+	--shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+	--shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+	--shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+	--shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.12);
+	--shadow-none: 0 0 #0000;
+	
+	// transition property used globally
+	--transition: cubic-bezier(.59,0,.06,1);
+
+	// Wrapper width, max width of content in huge screens
+	--wrapper-width: 1440px;
+
+	// X axis global padding
+	--padding-x: 2rem;
+	@include mobile {
+		--padding-x: 2.25rem;
+	}
+	@include tablet {
+		--padding-x: 3rem;
+	}
+	@include hugeScreens {
+		--padding-x: 3rem;
+	}
+	--color-facebook: #1877f2;
+	--color-twitter: #00aaee;
+	--color-linkedin: #0077b5;
+	--color-instagram: #bc2a8d;
+	--color-youtube: #FF0000;
+}

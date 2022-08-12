@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Products",
+    "links": [
+      {
+        "title": "Ride with us",
+        "url": "https://customer.pickmeup.ng/"
+      },
+      {
+        "title": "Become a driver",
+        "url": "/driver"
+      },
+      {
+        "title": "Fleets",
+        "url": "/fleets"
+      },
+      {
+        "title": "Business",
+        "url": "/business"
+      },
+      {
+        "title": "Franchise",
+        "url": "/franchise"
+      },
+      {
+        "title": "Dispatcher",
+        "url": "/dispatcher"
+      }
+    ]
+  },
+  {
+    "title": "Resources",
+    "links": [
+      {
+        "title": "Offers",
+        "url": "/offer"
+      },
+      {
+        "title": "Support",
+        "url": "/support"
+      },
+      {
+        "title": "Events",
+        "url": "/event"
+      },
+      {
+        "title": "Safety",
+        "url": "/safety"
+      },
+      {
+        "title": "Airports",
+        "url": "/airports"
+      }
+    ]
+  },
+  {
+    "title": "Company",
+    "links": [
+      {
+        "title": "About us",
+        "url": "/about"
+      },
+      {
+        "title": "Cities",
+        "url": "/cities"
+      },
+      {
+        "title": "Blog",
+        "url": "/blog"
+      },
+      {
+        "title": "Careers",
+        "url": "/careers"
+      },
+      {
+        "title": "Influencers",
+        "url": "/ambassador"
+      }
+    ]
+  }
+]

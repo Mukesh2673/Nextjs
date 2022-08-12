@@ -1,0 +1,73 @@
+/*
+	DEV NOTE :
+	This file has all flex properties as classNames,
+	We  do  this  to   save   time  and  performance 
+	(and css lines) in development.
+*/
+
+.flex {
+	display: flex;
+}
+
+.items-center {
+	align-items: center;
+}
+
+.items-start {
+	align-items: flex-start;
+}
+
+.items-end {
+	align-items: flex-end;
+}
+
+.justify-start {
+	justify-content: flex-start;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-around {
+	justify-content: space-around;
+}
+
+.justify-evenly {
+	justify-content: space-evenly;
+}
+
+.justify-end {
+	justify-content: flex-end;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.col-gap {
+	column-gap: 0.75rem;
+	@include desktop {
+		column-gap: 1.25rem;
+	}
+}
+
+.col-gap-s {
+	column-gap: 0.5rem;
+}
+
+.row-gap {
+	row-gap: 1.25rem;
+}
+
+.row-gap-s {
+	row-gap: 0.5rem;
+}

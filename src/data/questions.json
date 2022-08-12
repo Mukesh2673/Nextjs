@@ -1,0 +1,46 @@
+[
+  {
+    "question": "How to book a ride?",
+    "answer": "The Pickmeup App automatically detects your current location and you can request to be picked up from that location. Pickmeup connects you to the closest available driver. You can also type an address or drag the pin to a different location and request to be picked up from that point.<br /><br />Booking a ride with the Pickmeup App is very simple. Here is an easy guide on how to book a ride:<br /><br /><p></p><ol><li>Choose the Vehicle Type e.g <b>Pickmeup</b><br />You will see the nearest driver on the map with an estimated pickup time for each vehicle type.</li><li>Tap the <b>RIDE NOW</b> button or <b>RIDE LATER</b> to schedule a ride.</li><li>You can optionally enter your destination for a fare estimate.</li><li>Tap <b>CONFIRM BOOKING</b></li><li> On the next screen tap <b>CONFIRM PICKUP</b> and watch how our App matches you with the nearest available driver in seconds.</li><ol><br /><br />You will get instant notification with the trip details when a driver accepts your request and you can track the arrival of the driver on the map in real time.<br /><br />Your driver name, photo and vehicle details will be displayed on the App so you know what to look out for. You can decide to call or chat with the driver using the App.<br /><br />You will be notified on your phone when the driver arrives your pickup location. Meet the driver, then just get in, sit back and relax. The driver will take you to your destination and you only pay after the ride is complete.<br /><br />At the end of the trip, pay the driver (if cash payment option was selected) and rate the driver so that we can continue to provide the best riding experience always."
+  },
+  {
+    "question": "How to review and rate drivers?",
+    "answer": "Riders and Drivers can rate each other after the completion of a trip.<br /><br />At the end of each trip, you'll be invited to rate your driver from 1 to 5 stars. You can also provide this rating at the bottom of your receipt. When you're done you can add the driver as a favourite if you so wish. It's like you have your own private driver “WOW”."
+  },
+  {
+    "question": "How to schedule a ride?",
+    "answer": "Use the “RIDE LATER” feature to schedule a future ride. You can schedule a pick up from any location you desire at any later/future date or time. Utilize this feature to keep up with meetings, appointments, airport rides, etc… to ensure that you don't miss important events.<br /><br />To schedule a ride, tap the RIDE LATER button, choose the date and time you want the ride and confirm the booking. Your ride will be dispatched/assigned to the nearest available driver 1hr before the scheduled time.<br /><br />However, your ride will be dispatched immediately if the booking is less than 1hr from the scheduled time."
+  },
+  {
+    "question": "How to use promo codes?",
+    "answer": "1. Tap the RIDE NOW or RIDE LATER button.<br /><br />2. Tap Promo Code<br /><br />3. Enter your promo code and tap Apply.<br /><br />Note: If you see existing promos on the page, you can simply tap the Apply button by the side of the promo code you want to use for your trip.<br /><br />Please note that promo codes are automatically applied in reverse order. Your most recently added promo code will be applied to your current or next trip."
+  },
+  {
+    "question": "How to get FREE rides?",
+    "answer": "Every time a new Pickmeup user signs up with your referral code, they will automatically get ₦1000 credited to their wallet once they take their first ride.<br /><br />They can thereafter book their next ride free (worth up to ₦1000) using their wallet for payment. <br /><br />Once they take their first ride, you will also get ₦1000 free ride coupon via email which you can use to book your next ride free."
+  },
+  {
+    "question": "How to add your card and ride cashless?",
+    "answer": "Riding cashless is fun. You won't have to worry about fumbling for cash or driver tells you he doesn't have “change”. After the trip, you can simply say thank you and get out of the vehicle.<br /><br />Payment is secure and stress-free in a cashless way; your registered card gets charged only at the completion of the trip. No pranks, no payment related arguments and mostly importantly card details are not stored on our platform to ensure maximum security."
+  },
+  {
+    "question": "Partner or own a franchise in Pickmeup",
+    "answer": "You can partner or own a franchise of Pickmeup in your city and get a good return on investment. Furthermore, If you have a vehicle, you can bring it and be earning up to ₦100,000 weekly. For businesship/franchise enquiries call 08053199157 or email: parners@pickmeup.ng"
+  },
+  {
+    "question": "I have forgotten an item in my driver's vehicle!",
+    "answer": "If you think you might have left any item in the vehicle, please contact our Customer Service Team immediately on 07067558936, 08054089609 or chat with us using the Livechat menu to give us details of the trip/item. We will then contact the driver to check if the item was found in the vehicle.<br /><br />If the driver confirms that your item has been found, we will connect you directly with your driver so you can coordinate a mutually convenient time and place to meet for its return to you."
+  },
+  {
+    "question": "Can I use other apps while online?",
+    "answer": "Your Pickmeup app continues to run when you're using other apps or the phone. GPS info is continually updated to ensure your trips are recorded for accurate fares.<br /><br />Follow local regulations regarding phone use. Please be mindful that talking on the phone while driving can be distracting and dangerous. Some riders also find this rude and unsafe. "
+  },
+  {
+    "question": "Rider Pickup",
+    "answer": "Occasionally, the wrong rider may attempt to enter your vehicle by mistake.<br /><br />To make sure you pick up the right person every time, we recommend confirming your rider's name before starting a trip.<br /><br />Your app displays the rider's name once you have accepted their request, and the rider can see your name, photo, vehicle type, and license plate number.<br /><br />If you completed this trip with the wrong rider in your vehicle, let us know ASAP. "
+  },
+  {
+    "question": "Awesome features of Pickmeup",
+    "answer": "1. Mark drivers as favorites at the end of a ride and the Pickmeup app will always try to match you with one of your favorite drivers. If a favourite driver is around then you can actually select your preferred driver for the ride.<br /><br />2. Pickmeup Corporate lets you bill your company directly for any official trip taken on Pickmeup. Simply add your corporate email id and if its registered under an approved Pickmeup Corporate Account, then you can start billing your company for rides.<br /><br />3. Schedule a Ride: Tap the RIDE LATER button to book a ride in advance from anywhere.<br /><br />4. Driver/Customer chat allows you to text your driver in real time after booking a ride.<br /><br />5. Book a trip for someone else allows you to book and pay for a ride taken by a friend or a family member who will in-turn receive a live tracking link to track the exact location of the driver.<br /><br />6. Live Chat: We have a dedicated live chat module integrated on our apps which allows our riders and drivers to chat with our customer service team in real time<br /><br />Our customer support is ready to help you all day, everyday."
+  }
+]

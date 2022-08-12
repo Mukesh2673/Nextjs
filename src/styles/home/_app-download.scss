@@ -1,0 +1,36 @@
+.AppDownload {
+  background-color: var(--main-light-100);
+  padding: 4rem 0 3rem;
+  margin-top: 4rem !important;
+  .wrapper {
+    margin: 0 auto;
+  }
+  &-text {
+    .title {
+      @include tablet {
+        max-width: 80%;
+      }
+      margin-bottom: 0.5rem;
+      @include tablet {
+        text-align: center !important;
+      }
+    }
+    .text {
+      @include tablet {
+        max-width: 40%;
+      }
+      @include tablet {
+        text-align: center !important;
+      }
+    }
+  }
+  &-download {
+    margin-top: 1.5rem;
+    img {
+      height: 2.5rem;
+      @include tablet {
+        height: 3.25rem;
+      }
+    }
+  }
+}

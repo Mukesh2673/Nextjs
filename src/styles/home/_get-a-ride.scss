@@ -1,0 +1,96 @@
+@keyframes breathe {
+	0% {
+		transform: translateY(-5px);
+	}
+	50% {
+		transform: translateY(5px);
+	}
+	100% {
+		transform: translateY(-5px);
+	}
+}
+
+.GetARide {
+	background-color: var(--main-light-100);
+	overflow: hidden;
+	&-content {
+		margin-top: 0;
+		padding: 4rem var(--padding-x) 3rem;
+		@include desktop {
+			padding: 4rem var(--padding-x) 0;
+			flex-direction: row;
+			align-items: start;
+			justify-content: flex-end;
+		}
+	}
+	&-image, &-text {
+		@include desktop {
+			width: 50%;
+		}
+	}
+	&-image {
+		position: relative;
+		padding: 0 var(--padding-x);
+		margin-bottom: 2.5rem;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-end;
+		@include desktop {
+			margin: 0;
+		}
+		&-iphone {
+			position: relative;
+			width: 100%;
+			display: flex;
+			align-items: flex-end;
+			justify-content: center;
+			@include tablet {
+				width: 400px;
+				max-width: 400px;
+			}
+			.elem {
+				position: absolute;
+				@include mobile {
+					width: 14rem;
+				}
+				&.blue {
+					animation: breathe infinite 3.5s ease;
+					top: 12%;
+					right: -20%;
+					@include tablet {
+						right: -30%;
+						top: 20%;
+					}
+				}
+				&.light {
+					animation: breathe infinite 3.5s ease;
+					animation-delay: 3000ms;
+					bottom: 12%;
+					left: -20%;
+					@include tablet {
+						left: -30%;
+						bottom: 15%;
+					}
+				}
+			}
+			.iphone {
+				width: 100%;
+			}
+		}
+	}
+	&-text {
+		&-content {
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-template-rows: auto;
+			justify-content: center;
+			grid-gap: 2.25rem 3.5rem;
+			margin-top: 2.75rem;
+			@include tablet {
+				grid-template-columns: 1fr 1fr;
+			}
+		}
+	}
+}

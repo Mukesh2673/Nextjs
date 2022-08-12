@@ -1,0 +1,152 @@
+@keyframes slideRight {
+	from {
+		left: -100rem;
+	}
+	to {
+		left: 47%;
+	}
+}
+
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+	10% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 0;
+	}
+	70% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 0;
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(-360deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.Info {
+	@include desktop {
+		flex-direction: row;
+		min-height: 570px;
+	}
+	&-text {
+		padding-right: 4rem;
+		&-title {
+			margin-bottom: 3rem;
+		}
+		@include desktop {
+			position: absolute;
+			left: var(--padding-x);
+			top: 0;
+			max-width: 50%;
+			width: 50%;
+			min-width: 50%;
+		}
+	}
+	&-content {
+		&-item {
+			&-icon {
+				font-size: 2rem;
+				color: var(--main);
+			}
+		}
+	}
+	&-image {
+		&.normal {
+			max-height: 100%;
+			min-width: 100%;
+			width: 100%;
+			max-width: 100%;
+			margin-top: 3rem;
+			display: none;
+			@include desktop {
+				display: flex;
+				position: absolute;
+				margin-top: 0;
+				max-width: 90%;
+				width: 90%;
+				min-width: 90%;
+				right: -15rem;
+				top: -1rem;
+			}
+		}
+		width: 50%;
+		height: 100%;
+		margin-top: 3rem;
+		@include desktop {
+			position: absolute;
+			right: 0;
+			margin-top: 0;
+			margin-left: 1rem;
+		}
+		img {
+			max-height: 100%;
+			max-width: 100%;
+		}
+		&-wrapper {
+			max-width: 100%;
+			max-height: 100%;
+		}
+	}
+	&-car {
+		transform: scale(0.9);
+		width: 16rem;
+		height: 5.5rem;
+		@include notDesktop {
+			display: none;
+		}
+		z-index: 450;
+		.light {
+			top: 0.1rem;
+			left: 0.75rem;
+			z-index: 3;
+			animation: blink linear 8s infinite;
+		}
+		.car {
+			z-index: 2;
+		}
+		.tire {
+			z-index: 1;
+			height: 2.15rem;
+			width: 2.15rem;
+			bottom: 0.25rem;
+			&.front {
+				left: 1.95rem;
+			}
+			&.back {
+				right: 3rem
+			}
+		}
+		@include desktop {
+			bottom: 4rem;
+			&.moving {
+				animation-delay: 4s;
+				animation: slideRight ease 3s forwards;
+				.tire {
+					transform-origin: center;
+					animation-delay: 4s;
+					animation: rotate linear 3s forwards;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,56 @@
+.PopUp {
+	z-index: 1337;
+	bottom: 0rem;
+	transform: translateY(150%);
+	opacity: 0;
+	background-color: var(--gray-50);
+	transition: transform 1s var(--transition),
+				opacity .4s var(--transition);
+	&.visible {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	&-content {
+		max-width: var(--wrapper-width);
+		margin: auto;
+		padding: 0.825rem 1.25rem 0.925rem;
+		@include tablet {
+			padding: 1rem 2rem 1.25rem;
+		}
+		color: var(--gray-600);
+		p {
+			margin-bottom: 1rem;
+			@include desktop {
+				margin-bottom: 0;
+				margin-right: 1.5rem;
+			}
+		}
+		@supports (column-gap: 1.5rem) {
+			column-gap: 1.5rem;
+			p {
+				margin: 0;
+			}
+		}
+		@include mobile {
+			row-gap: 1rem;
+			flex-direction: column;
+		}
+		.text {
+			font-size: 0.875rem;
+			@include tablet {
+				font-size: 0.925rem;
+			}
+		}
+		.button {
+			font-size: 0.925rem;
+			justify-content: center;
+			width: 100%;
+			min-width: 100%;
+			@include tablet {
+				font-size: 1rem;
+				width: 150px;
+				min-width: 150px;
+			}
+		}
+	}
+}

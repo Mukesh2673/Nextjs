@@ -1,0 +1,24 @@
+.Actions {
+	padding-bottom: 8rem;
+	&-item:not(:first-child) {
+		margin-top: 5rem;
+		@include tablet {
+			margin-top: 0;
+			margin-left: 5rem;
+		}
+	}
+	@supports (column-gap: 5rem) {
+		column-gap: 5rem;
+		row-gap: 5rem;
+		&-item {
+			margin: 0;
+		}
+	}
+	margin-top: 0;
+	button {
+		margin-top: 1.5rem;
+	}
+	@include tablet {
+		flex-direction: row;
+	}
+}

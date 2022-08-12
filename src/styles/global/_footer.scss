@@ -1,0 +1,114 @@
+.Footer {
+	padding: 4rem var(--padding-x) 1.5rem;
+	background-image: linear-gradient(var(--main-light-900), var(--main-dark-50));
+	color: #fff;
+	.wrapper {
+		margin-top: 0;
+	}
+	&-copyright {
+		@include notDesktop {
+			width: 100%;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+	ul {
+		list-style: none;
+		li, a {
+			color: #fff;
+			transition: opacity 400ms var(--transition);
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+	&-Logo {
+		height: 3rem;
+		margin-bottom: 1.5rem;
+		div, img {
+			height: 100%;
+		}
+	}
+	&-sm {
+		margin-top: 1rem;
+		span {
+			font-size: 1rem;
+		}
+		&-icons a {
+			font-size: 1.5rem;
+		}
+	}
+	&-section {
+		&-1 {
+			margin-bottom: 1.25rem;
+			@include notDesktop {
+				flex-direction: column;
+			}
+			.flex {
+				p {
+					font-size: 1.15rem;
+					font-weight: 500;
+					margin-bottom: 2.75rem;
+				}
+			}
+			&-Support {
+				span {
+					color: #fff;
+				}
+				transition: opacity 400ms var(--transition);
+				&:hover {
+					opacity: 0.7;
+				}
+			}
+		}
+		&-2 {
+			width: 100%;
+			.line {
+				margin: 0.75rem auto 0;
+				background-image: linear-gradient(45deg, var(--white-opacity-6), var(--white-opacity-2));
+			}
+		}
+		&-3 {
+			width: 100%;
+			@include desktop {
+				flex-direction: row-reverse;
+				justify-content: space-between;
+			}
+			.text {
+				color: #fff;
+				@include mobile {
+					text-align: center!important;
+				}
+				span {
+					font-weight: 600;
+					margin: 0 1rem;
+				}
+			}
+		}
+	}
+	&-navigation {
+		max-width: 35%;
+		min-width: 35%;
+		width: 35%;
+		@include notDesktop {
+			margin-top: 4rem;
+			max-width: 100%;
+			min-width: 100%;
+			width: 100%;
+		}
+		.column {
+			h4 {
+				margin-bottom: 1.75rem;
+			}
+			.link {
+				a {
+					font-weight: 400;
+					font-size: .925rem;
+				}
+				&:not(:last-child) {
+					margin-bottom: 1.25rem;
+				}
+			}
+		}
+	}
+}

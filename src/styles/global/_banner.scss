@@ -1,0 +1,79 @@
+.Banner {
+	row-gap: 2rem;
+
+	&-text {
+		&-text {
+			padding-left: 2rem;
+		}
+
+		@include mobile {
+			flex-direction: column;
+			align-items: flex-start;
+			row-gap: 1rem;
+
+			&-text,
+			&-title {
+				width: 100%;
+				padding: 0;
+			}
+		}
+
+		&-title.w-65 {
+			@include desktop {
+				width: 65%;
+			}
+		}
+	}
+
+	&-wrapper {
+		position: relative;
+		border-radius: var(--border-radius);
+		min-height: 400px;
+		height: 400px;
+
+		@include tablet {
+			min-height: 500px;
+			height: 500px;
+		}
+
+		@include desktop {
+			min-height: 800px;
+			height: 800px;
+
+			img {
+				display: flex !important;
+				border-radius: var(--border-radius);
+			}
+		}
+
+		&.with-form {
+			img {
+				display: none;
+			}
+
+			@include notDesktop {
+				min-height: auto;
+				height: auto;
+			}
+		}
+
+		.BannerForm {
+			@include notDesktop {
+				display: block;
+				position: relative;
+				padding: 0;
+
+				&-content {
+					display: block;
+					width: 100%;
+					height: 100%;
+					padding-left: 0;
+					padding-right: 0;
+					box-shadow: none;
+					max-width: 100%;
+					min-width: 100%;
+				}
+			}
+		}
+	}
+}

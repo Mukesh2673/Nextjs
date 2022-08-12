@@ -1,0 +1,44 @@
+.ReadySection {
+	background-color: var(--main-light-100);
+	padding: 4rem 0 3rem;
+	&-wrapper {
+		margin: 0;
+		@include desktop {
+			flex-direction: row;
+			.ReadySection-main {
+				margin-right: 4rem;
+			}
+		}
+	}
+	&-main {
+		&-title {
+			margin-bottom: 1.25rem;
+		}
+		@include desktop {
+			flex: 1.2;
+		}
+	}
+	&-list {
+		&-item {
+			&-icon {
+				background-color: var(--main-light-200);
+				color: var(--main);
+				padding: 0.5rem 0.65rem 0.45rem;
+				border-radius: 500px;
+				cursor: pointer;
+				&, svg {
+					transition: all 600ms ease;
+				}
+				&:hover {
+					background-color: var(--main-light-300);
+					svg {
+						transform: translateY(-2px)
+					}
+				}
+			}
+		}
+		@include desktop {
+			flex: 0.8;
+		}
+	}
+}

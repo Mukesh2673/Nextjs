@@ -1,0 +1,56 @@
+.Business.Page {
+	.Business-Section {
+		&__image {
+			margin-bottom: 3rem;
+			@include desktop {
+				margin-left: 4rem;
+				margin-bottom: 0;
+				&.reversed {
+					margin-left: 0;
+					margin-right: 4rem;
+				}
+			}
+		}
+		@supports (row-gap: 3rem) {
+			row-gap: 3rem;
+			column-gap: 4rem;
+			&__image {
+				margin: 0;
+			}
+		}
+		@include desktop {
+			flex-direction: row;
+			&.reversed {
+				flex-direction: row-reverse;
+			}
+			justify-content: space-between;
+		}
+		&__image {
+			width: 100%;
+			@include desktop {
+				width: 60%;
+			}
+			img {
+				&:nth-child(2) {
+					margin-top: 1.25rem;
+					@supports (row-gap: 1.25rem) {
+						margin-top: 0;
+					}
+				}
+				width: 100%;
+			}
+		}
+		&__content {
+			width: 100%;
+			&-content {
+				padding-top: 1.25rem;
+				.line {
+					margin: 1.75rem auto;
+				}
+				.button-wrapper {
+					margin-top: 1.5rem;
+				}
+			}
+		}
+	}
+}
