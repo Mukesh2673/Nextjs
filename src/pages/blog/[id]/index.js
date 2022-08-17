@@ -9,26 +9,38 @@ import ReactMarkdown from "react-markdown";
 const SingleBlog = () => {
   const router = useRouter();
 
-  const [blog, setBlog] = useState([]);
-
+  const uid=router.query.id;
+    const [blog, setBlog] = useState([]);
   const getSingleBlog = async () => {
     try {
+      if(uid)
+      {
       const res = await fetch(
-        `${STRAPI_API_URL}/api/pickmeups/${router?.query?.id}?populate=*`,
+        `https://www.pickmeup.ng/wp-json/wp/v2/posts?_embed&per_page=18&_fields[]=id&_fields[]=title&_fields[]=link&_fields[]=content&_fields[]=excerpt&_fields[]=_links.wp:featuredmedia&include=${uid}`,
+
         {
           // headers: {
           //   Authorization: `Bearer ${process.env.BEARER_TOKEN}`,
           // },
         }
+
       );
+    
+      
       const temp = await res.json();
-      if (temp.data) {
-        setBlog(temp.data);
+
+      if (temp) {
+        setBlog(temp);
       }
-    } catch (error) {
+    } 
+  
+  }
+    
+    catch (error) {
       console.error(error);
     }
   };
+        
   useEffect(() => {
     getSingleBlog();
   }, [router]);
@@ -38,22 +50,23 @@ const SingleBlog = () => {
 
   const getData = async () => {
     try {
-      const res = await fetch(`${STRAPI_API_URL}/api/pickmeups?populate=*`, {
-        headers: {
+      const res = await fetch(`https://www.pickmeup.ng/wp-json/wp/v2/posts?_embed&per_page=18&_fields[]=id&_fields[]=title&_fields[]=link&_fields[]=excerpt&_fields[]=_links.wp:featuredmedia&page=1`, {
+        /* headers: {
           Authorization: `Bearer ${process.env.BEARER_TOKEN}`,
-        },
+        }, */
       });
-      const temp = await res.json();
-      if (temp.data) {
-        setData(temp.data);
+      const temp = await res.json();      
+      if (temp) {
+        setData(temp);
       }
     } catch (err) {
       console.log(err);
     }
   };
-  useEffect(() => {
+  
+useEffect(() => {
     getData();
-  }, []);
+  }, []); 
 
   return (
     <>
@@ -67,32 +80,20 @@ const SingleBlog = () => {
             <div className="max-w-6xl px-10 py-6 mx-auto bg-gray-50">
               <img
                 className="object-cover w-full shadow-sm h-[70%] max-h-[400px]"
-                src={
-                  blog?.attributes?.image?.data?.attributes?.url
-                    ? `${STRAPI_API_URL}${blog?.attributes?.image?.data?.attributes?.url}`
-                    : "assets/blog/unsplash_8gWEAAXJjtI-2.png"
-                }
+               
+                 src={blog[0] ? blog[0]._embedded["wp:featuredmedia"][0].source_url:null}  
               />
 
               <div className="mt-2">
                 <p className="sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl font-bold">
                   {blog?.attributes?.title}
                 </p>
-
-                <div className="font-light text-gray-600">
-                  <p className="flex items-center mt-6 mb-6">
-                    <h1 className="font-bold text-gray-700 hover:underline">
-                      By {blog?.attributes?.author}
-                    </h1>
-                  </p>
-                </div>
               </div>
-              <h1 className="font-semibold text-2xl">Description:</h1>
-              <div className="max-w-full px-2  mx-auto text-xl text-justify text-gray-700 mt-4 rounded bg-gray-100">
+              <div className="max-w-full px-2  mx-auto text-md text-justify text-gray-700 mt-4 rounded bg-gray-100">
                 <div>
-                  <p className="mt-2 p-8">
-                    <ReactMarkdown>{blog?.attributes?.content}</ReactMarkdown>
-                  </p>
+                  
+                  <div className="mt-2 p-8" dangerouslySetInnerHTML={{__html: blog[0]?.content.rendered}}>
+                  </div>
                 </div>
               </div>
             </div>

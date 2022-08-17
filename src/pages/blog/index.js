@@ -14,22 +14,26 @@ export default function About() {
 
   const getData = async () => {
     try {
-      const res = await fetch(`${STRAPI_API_URL}/api/pickmeups?populate=*`, {
-        headers: {
+      const res = await fetch(`https://www.pickmeup.ng/wp-json/wp/v2/posts?_embed&per_page=18&_fields[]=id&_fields[]=title&_fields[]=link&_fields[]=excerpt&_fields[]=_links.wp:featuredmedia&page=1`, {
+       /*  headers: {
           Authorization: `Bearer ${process.env.BEARER_TOKEN}`,
-        },
+        }, */
       });
       const temp = await res.json();
-      if (temp.data) {
+      console.log(temp)
+      if (temp) {
         setData({
-          toShowData: temp.data,
-          allData: temp.data,
+          toShowData: temp,
+          allData: temp,
         });
       }
     } catch (err) {
       console.log(err);
     }
+
+
   };
+
 
   useEffect(() => {
     getData();
@@ -40,12 +44,10 @@ export default function About() {
 
   useEffect(() => {
     if (searchText) {
-      const filteredData = data.allData.filter((item) => {
-        return item.attributes?.title
-          .toLowerCase()
-          .includes(searchText.toLowerCase());
+            const filteredData = data.allData.filter((item) =>{
+        return item.title.rendered.toLowerCase().includes(searchText.toLowerCase());
       });
-      setData({ ...data, toShowData: filteredData });
+    setData({ ...data, toShowData: filteredData });
     } else {
       setData({ ...data, toShowData: data.allData });
     }
@@ -115,7 +117,7 @@ export default function About() {
               <h1 className="title text alignLeft tertiary mb-6">
                 App Update: add extra stops to your Pickmeup ride
               </h1>
-              <p classnName="text mt-8">
+              <p className="text mt-8">
                 Need to make a stop on your way or share your Pickmeup ride with
                 friends? No more switching destinations mid-journey, you can now
                 add extra stops before getting a ride!...
